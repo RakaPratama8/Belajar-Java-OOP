@@ -19,8 +19,8 @@ class Person{
         }
 //CONSTRUCTOR --------------------------------------------------
 //METHOD -----------------------------------------------------------------
-        void sayHello(String Namanya){
-                System.out.println("Hai " + Nama + ", Namaku " + Namanya );
+        void sayHello(String Nama){
+                System.out.println("Hai " + Nama + ", Namaku " + this.Nama );
         }
         void sayHello1(){
                 System.out.println(Nama + ", " + Alamat + ", " + Usia);
