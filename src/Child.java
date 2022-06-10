@@ -1,11 +1,9 @@
 class Child extends Parent{
-    int age;
 
-    Child(String name){ //SUPER CONSTRUCTOR
+    Child(String name) { //SUPER CONSTRUCTOR
         super(name);
     }
-
-    void sayHello(Integer age){
-        System.out.println(age + " and " + this.age);
+    void sayHello (String name){
+        System.out.println("Hi " + name + ", My name is Child " + this.name);
     }
 }

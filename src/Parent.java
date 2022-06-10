@@ -1,11 +1,10 @@
-class Parent {
-    String name;
+class Parent extends GrandParent{
 
     Parent(String name){
-        this.name = name; //SUPER CONSTRUCTOR
+        super(name);
     }
 
     void sayHello (String name){
-        System.out.println("Hi " + name + ", My name is " + this.name);
+        System.out.println("Hi " + name + ", My name is Parent " + this.name);
     }
 }
