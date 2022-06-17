@@ -3,13 +3,13 @@ class Person{
         String Alamat;
         Integer Usia;
 // CONSTRUCTOR ------------------------------------------------
-        Person (String Nama, String Alamat, Integer Usia){
+        Person (String Nama, String Alamat, Integer Usia) {
                 this.Nama = Nama;
                 this.Alamat = Alamat;
                 this.Usia = Usia;
-}
+        }
         Person (String Nama, String Alamat){
-                this(Nama, Alamat, null);
+                this(Nama,Alamat,null);
         }
 
         Person(String Nama){

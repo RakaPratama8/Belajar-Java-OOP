@@ -18,6 +18,15 @@ public class PolymorhpismApp {
     }
 
     static void sayHello(GrandParent grandParent){
-        System.out.println("Hi, " + grandParent.name);
+        if (grandParent instanceof Parent){
+            Parent parent = (Parent) grandParent;
+            System.out.println("Hi Parent, " + parent.name);
+        }else if(grandParent instanceof Child){
+            Child child = (Child) grandParent;
+            System.out.println("Hi Child, " + child.name);
+        }else{
+            System.out.println("Hi grandparent, " + grandParent.name);
+        }
     }
+
 }

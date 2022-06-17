@@ -1,4 +1,4 @@
-class Child extends Parent{
+class Child extends GrandParent{
 
     Child(String name) { //SUPER CONSTRUCTOR
         super(name);
