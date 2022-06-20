@@ -8,4 +8,7 @@ public class Product {
         Name = name;
         Price = price;
     }
+    public String toString(){ // ToString untuk mengubah default variabel
+        return "Product name: " + Name + " Price: " + Price;
+    }
 }

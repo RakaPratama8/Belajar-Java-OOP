@@ -2,5 +2,7 @@ package Raka.Pratama.Data;
 
 public interface HasBrand{
 
-    int speed();
+    default int speed(){
+        return 0;
+    }
 }
